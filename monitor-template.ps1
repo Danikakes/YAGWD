@@ -155,14 +155,13 @@ if (-not (Test-Path $ExePath)) {
     exit 1
 }
 
-$url = "https://github.com/Danikakes/YAGWD"
-$name = "the Github!"
+$giturl = "https://github.com/Danikakes/YAGWD"
 
 # Display startup banner
 Write-Host "`n============================================================" -ForegroundColor Cyan
 Write-Host "$APP_NAME MONITOR" -ForegroundColor Cyan
 Write-Host "============================================================" -ForegroundColor Cyan
-Write-Host "Help Make YAGWD Better! Check out `e]8;;$url`e\$name`e]8;;`e\\"
+Write-Host "Help Make YAGWD Better! Check out $giturl"
 Write-Host "============================================================" -ForegroundColor Cyan
 Write-Host "Application: $ExePath" -ForegroundColor White
 Write-Host "Log File: $logFile" -ForegroundColor White
@@ -326,4 +325,5 @@ $($errorBuilder.ToString())
     exit 1
 }
 
-Read-Host "`nPress Enter to exit"
+## Uncomment to propt user to close
+# Read-Host "`nPress Enter to exit"
