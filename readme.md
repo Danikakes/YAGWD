@@ -1,5 +1,5 @@
-# AUTOMATED BUILD SYSTEM - Complete Guide
-
+# Yet Another Game WatchDog - Complete Guide
+For transparency sake, I used Claude to clean up this code and generate readable documentation because I am not great at that.
 ## 🎯 What This Does
 
 This system **completely automates** the monitor build process:
